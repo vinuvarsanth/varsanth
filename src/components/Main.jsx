@@ -8,6 +8,7 @@ const Main = () => {
     left: 20,
     right: 20,
     padding: "10px",
+    fontSize: "34px",
   };
   return (
     <form style={styling}>
@@ -35,8 +36,8 @@ const Main = () => {
           <input type="password" id="password" name="password" />
         </p>
       </div>
-      <button type="submit">Submit</button>
-      <button type="Clear">Clear</button>
+      <button style={{ type: "submit", fontSize: "20px" }}>Submit</button>
+      <button style={{ type: "submit", fontSize: "20px" }}>Clear</button>
     </form>
   );
 };
