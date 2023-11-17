@@ -1,30 +1,15 @@
 import React from "react";
 
-const Navbar = () => {
+const NavBar = () => {
   return (
-    <>
-      <h1
-        style={{
-          backgroundColor: "skyblue",
-          fontSize: "64px",
-          textAlign: "center",
-          margin: "0", // Remove margin
-        }}
-      >
-        My First React-Web-Page
+    <div>
+      <hr></hr>
+      <h1 style={{ backgroundColor: "pink", fontSize: "30px" }}>
+        <center>Thanos K</center>
       </h1>
-      <h5
-        style={{
-          backgroundColor: "lightblue",
-          fontSize: "20px",
-          textAlign: "center",
-          margin: "0", // Remove margin
-        }}
-      >
-        BY: VINU VARSANTH M R
-      </h5>
-    </>
+      <hr></hr>
+    </div>
   );
 };
 
-export default Navbar;
+export default NavBar;

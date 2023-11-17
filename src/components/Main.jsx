@@ -1,45 +1,32 @@
 import React from "react";
 
 const Main = () => {
-  const styling = {
-    textAlign: "center",
-    position: "fixed",
-    middle: 20,
-    left: 20,
-    right: 20,
-    padding: "10px",
-    fontSize: "24px",
-  };
   return (
-    <form style={styling}>
-      <div>
-        <p>
-          <label htmlFor="FirstName">FirstName : </label>
-          <input type="text" id="FirstName" name="FirstName" />
-        </p>
-      </div>
-      <div>
-        <p>
-          <label htmlFor="LastName">LastName : </label>
-          <input type="text" id="LastName" name="LastName" />
-        </p>
-      </div>
-      <div>
-        <p>
-          <label htmlFor="username">Username : </label>
-          <input type="text" id="username" name="username" />
-        </p>
-      </div>
-      <div>
-        <p>
-          <label htmlFor="password">Password : </label>
-          <input type="password" id="password" name="password" />
-        </p>
-      </div>
-      <div>
-        <button style={{ type: "submit", fontSize: "20px" }}>Submit</button>
-      </div>
-    </form>
+    <div>
+      <center>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiIDZZ2zobYDZVnOsSp8v5FENYIo7QKNyIdLYyL5xLAoGJVNvTmtIRkt6vW_FKDmOnt98&usqp=CAU"></img>
+        <br></br>
+        <br></br>
+        <label for="name">Email Id: &emsp;</label>
+        <input id="name" type="box" placeholder="Email ID"></input>
+        <br></br>
+        <br></br>
+        <label for="na">Password: &emsp;</label>
+        <input id="na" type="Password" placeholder="Password"></input>
+        <br></br>
+        <br></br>
+        <label for="Feedback">Feedback: &emsp;</label>
+        <textarea id="Feedback" name="Feedback" rows="4" cols="50"></textarea>
+        <br></br>
+        <br></br>
+        <button>Submit</button>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+      </center>
+    </div>
   );
 };
+
 export default Main;
